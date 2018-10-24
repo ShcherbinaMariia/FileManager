@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="main.MainView">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="10000" height="10200"/>
+    </constraints>
+    <properties>
+      <minimumSize width="-1" height="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="42410" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="900a9" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="ad56" class="javax.swing.JComboBox" binding="leftDriveChooser">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <toolTipText value="choose Disk and press 'go!' button"/>
+                </properties>
+              </component>
+              <component id="3c584" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Left"/>
+                </properties>
+              </component>
+              <component id="d25eb" class="javax.swing.JButton" binding="leftGoButton">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="go!"/>
+                </properties>
+              </component>
+              <hspacer id="afcd2">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+            </children>
+          </grid>
+          <toolbar id="21a9e">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="20"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="4855f" class="javax.swing.JButton" binding="leftRefreshButton">
+                <constraints/>
+                <properties>
+                  <hideActionText value="true"/>
+                  <icon value="com/sun/javafx/scene/web/skin/Redo_16x16_JFX.png"/>
+                  <text value=""/>
+                  <toolTipText value="Refresh"/>
+                </properties>
+              </component>
+              <component id="1e78f" class="javax.swing.JButton" binding="leftBackButton">
+                <constraints/>
+                <properties>
+                  <icon value="com/sun/javafx/scene/control/skin/caspian/images/backspace-icon.png"/>
+                  <text value=""/>
+                  <toolTipText value="Back"/>
+                </properties>
+              </component>
+              <component id="64d8c" class="javax.swing.JButton" binding="leftCreateButton">
+                <constraints/>
+                <properties>
+                  <icon value="toolbarButtonGraphics/general/New16.gif"/>
+                  <text value=""/>
+                  <toolTipText value="Create"/>
+                </properties>
+              </component>
+              <component id="ccc21" class="javax.swing.JButton" binding="leftDeleteButton">
+                <constraints/>
+                <properties>
+                  <icon value="toolbarButtonGraphics/general/Delete16.gif"/>
+                  <label value=""/>
+                  <text value=""/>
+                  <toolTipText value="Delete"/>
+                </properties>
+              </component>
+              <component id="33add" class="javax.swing.JButton" binding="leftCreateDirectoryButton">
+                <constraints/>
+                <properties>
+                  <icon value="javax/swing/plaf/metal/icons/ocean/newFolder.gif"/>
+                  <text value=""/>
+                  <toolTipText value="Create new folder"/>
+                </properties>
+              </component>
+              <component id="34ecf" class="javax.swing.JButton" binding="leftCopyButton">
+                <constraints/>
+                <properties>
+                  <icon value="com/sun/javafx/scene/web/skin/Copy_16x16_JFX.png"/>
+                  <text value=""/>
+                  <toolTipText value="Copy"/>
+                </properties>
+              </component>
+              <component id="255d3" class="javax.swing.JButton" binding="leftMoveButton">
+                <constraints/>
+                <properties>
+                  <icon value="sun/jvm/hotspot/ui/resources/arrow.png"/>
+                  <text value=""/>
+                  <toolTipText value="Move"/>
+                </properties>
+              </component>
+              <component id="86300" class="javax.swing.JButton" binding="leftRenameButton">
+                <constraints/>
+                <properties>
+                  <text value="Rename"/>
+                  <toolTipText value="Rename selected file"/>
+                </properties>
+              </component>
+              <component id="d6cc" class="javax.swing.JButton" binding="leftChangeTextFileButton">
+                <constraints/>
+                <properties>
+                  <text value="Task1"/>
+                  <toolTipText value="Replaces multiples lines by one"/>
+                </properties>
+              </component>
+              <component id="b4f3" class="javax.swing.JButton" binding="leftFindButton">
+                <constraints/>
+                <properties>
+                  <text value="Find"/>
+                  <toolTipText value="Find and select files by regex"/>
+                </properties>
+              </component>
+              <component id="6e31" class="javax.swing.JButton" binding="leftMakeFrequencyDictionaryButton">
+                <constraints/>
+                <properties>
+                  <text value="Make FD"/>
+                  <toolTipText value="Make frequency dictionary"/>
+                </properties>
+              </component>
+              <component id="4be84" class="javax.swing.JButton" binding="leftSelectLinkedFilesButton">
+                <constraints/>
+                <properties>
+                  <text value="Task2"/>
+                  <toolTipText value="Select linked files to selected HTML file"/>
+                </properties>
+              </component>
+            </children>
+          </toolbar>
+          <scrollpane id="c794b">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="fc255" class="javax.swing.JList" binding="leftList">
+                <constraints/>
+                <properties>
+                  <selectionMode value="2"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="d86ed" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="9316b" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="9c0cb" class="javax.swing.JComboBox" binding="rightDriveChooser">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <toolTipText value="choose Disk and press 'go!' button"/>
+                </properties>
+              </component>
+              <component id="5cc2c" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Right"/>
+                </properties>
+              </component>
+              <component id="a8601" class="javax.swing.JButton" binding="rightGoButton">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="go!"/>
+                </properties>
+              </component>
+              <hspacer id="71f09">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+            </children>
+          </grid>
+          <toolbar id="b65cd">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="20"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="63d1f" class="javax.swing.JButton" binding="rightRefreshButton">
+                <constraints/>
+                <properties>
+                  <icon value="com/sun/javafx/scene/web/skin/Redo_16x16_JFX.png"/>
+                  <text value=""/>
+                  <toolTipText value="Refresh"/>
+                </properties>
+              </component>
+              <component id="a9295" class="javax.swing.JButton" binding="rightBackButton">
+                <constraints/>
+                <properties>
+                  <icon value="com/sun/javafx/scene/control/skin/caspian/images/backspace-icon.png"/>
+                  <text value=""/>
+                  <toolTipText value="Back"/>
+                </properties>
+              </component>
+              <component id="dfec7" class="javax.swing.JButton" binding="rightCreateButton">
+                <constraints/>
+                <properties>
+                  <icon value="toolbarButtonGraphics/general/New16.gif"/>
+                  <text value=""/>
+                  <toolTipText value="Create"/>
+                </properties>
+              </component>
+              <component id="c2818" class="javax.swing.JButton" binding="rightDeleteButton">
+                <constraints/>
+                <properties>
+                  <icon value="toolbarButtonGraphics/general/Delete16.gif"/>
+                  <text value=""/>
+                  <toolTipText value="Delete"/>
+                </properties>
+              </component>
+              <component id="b29d8" class="javax.swing.JButton" binding="rightCreateDirectoryButton">
+                <constraints/>
+                <properties>
+                  <icon value="javax/swing/plaf/metal/icons/ocean/newFolder.gif"/>
+                  <text value=""/>
+                  <toolTipText value="Create new directory"/>
+                </properties>
+              </component>
+              <component id="a1ceb" class="javax.swing.JButton" binding="rightCopyButton">
+                <constraints/>
+                <properties>
+                  <icon value="com/sun/javafx/scene/web/skin/Copy_16x16_JFX.png"/>
+                  <text value="Copy"/>
+                  <toolTipText value="Copy"/>
+                </properties>
+              </component>
+              <component id="d80cc" class="javax.swing.JButton" binding="rightMoveButton">
+                <constraints/>
+                <properties>
+                  <icon value="sun/jvm/hotspot/ui/resources/arrow.png"/>
+                  <text value=""/>
+                  <toolTipText value="Move"/>
+                </properties>
+              </component>
+              <component id="ff779" class="javax.swing.JButton" binding="rightRenameButton">
+                <constraints/>
+                <properties>
+                  <text value="Rename"/>
+                  <toolTipText value="Rename selected file"/>
+                </properties>
+              </component>
+              <component id="4af4c" class="javax.swing.JButton" binding="rightChangeTextButton">
+                <constraints/>
+                <properties>
+                  <text value="Task1"/>
+                  <toolTipText value="Replaces multiple lines"/>
+                </properties>
+              </component>
+              <component id="8ddd0" class="javax.swing.JButton" binding="rightFindButton">
+                <constraints/>
+                <properties>
+                  <text value="Find"/>
+                  <toolTipText value="Find and select files by regex"/>
+                </properties>
+              </component>
+              <component id="e13d4" class="javax.swing.JButton" binding="rightMakeFrequencyDictionaryButton">
+                <constraints/>
+                <properties>
+                  <text value="Make FD"/>
+                  <toolTipText value="Make frequency dictionary"/>
+                </properties>
+              </component>
+              <component id="c01f4" class="javax.swing.JButton" binding="rightSelectLinkedFilesButton">
+                <constraints/>
+                <properties>
+                  <text value="Task2"/>
+                  <toolTipText value="Select linked files to selected HTML file"/>
+                </properties>
+              </component>
+            </children>
+          </toolbar>
+          <scrollpane id="6e0e4">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="c2904" class="javax.swing.JList" binding="rightList">
+                <constraints/>
+                <properties>
+                  <enabled value="true"/>
+                  <selectionMode value="2"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
