@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SketchIt">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SketchIt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

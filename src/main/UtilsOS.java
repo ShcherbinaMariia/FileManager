@@ -10,13 +10,13 @@ public class UtilsOS {
 
     //Java class for working with operation system API
 
-    static boolean isDirectory(String filePath){
+    public static boolean isDirectory(String filePath){
         File file = new File(filePath);
         return file.isDirectory();
     }
 
 
-    static Vector<String> getListElems(File files){
+    public static Vector<String> getListElems(File files){
 
         Vector<String> result = new Vector<>();
         for (final File fileEntry : Objects.requireNonNull(files.listFiles())) {
@@ -29,7 +29,7 @@ public class UtilsOS {
         return result;
     }
 
-    static int createDirectory(String filePath){
+    public static int createDirectory(String filePath){
 
         File newFolder = new File(filePath);
         if (newFolder.exists()){
@@ -39,7 +39,7 @@ public class UtilsOS {
         return 2;
     }
 
-    static int createFile(String filePath) {
+    public static int createFile(String filePath) {
         File file = new File(filePath);
         int result = 1;
         try {
@@ -55,7 +55,7 @@ public class UtilsOS {
         return result;
     }
 
-    static int renameFile(String path, String oldName, String newName) {
+    public static int renameFile(String path, String oldName, String newName) {
 
         File file = new File(path + oldName);
 
@@ -72,9 +72,11 @@ public class UtilsOS {
         return 0;
     }
 
-    static int deleteFile(String path)
+    public static int deleteFile(String path)
     {
         File file = new File(path);
+        if (!file.exists())
+            return 0;
         if (file.isDirectory()){
             if (Objects.requireNonNull(file.listFiles()).length != 0) {
                 return 2;
@@ -87,7 +89,7 @@ public class UtilsOS {
         return -1;
     }
 
-    static int copyFile(String pathFrom, String pathTo) {
+    public static int copyFile(String pathFrom, String pathTo) {
         File fileFrom = new File(pathFrom);
         File fileTo = new File(pathTo);
         if (fileTo.exists())
@@ -101,7 +103,7 @@ public class UtilsOS {
         return 0;
     }
 
-    static Vector<String> getLogicalDrives(){
+    public static Vector<String> getLogicalDrives(){
         Vector<String> result = new Vector<>();
         File[] roots = File.listRoots();
         for (File root: roots) {
@@ -110,7 +112,7 @@ public class UtilsOS {
         return result;
     }
 
-    static String getFileText(String path) throws IOException {
+    public static String getFileText(String path) throws IOException {
 
         BufferedReader reader;
         File readFile = new File(path);
@@ -124,7 +126,7 @@ public class UtilsOS {
         return result.toString();
     }
 
-    static int writeToFile(String path, String content){
+    public static int writeToFile(String path, String content){
         BufferedWriter writer;
         File writeFile = new File(path);
         try {

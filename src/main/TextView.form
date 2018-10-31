@@ -29,28 +29,12 @@
             <properties/>
             <border type="none"/>
             <children>
-              <component id="9c675" class="javax.swing.JButton" binding="newFileButton">
-                <constraints/>
-                <properties>
-                  <icon value="toolbarButtonGraphics/general/New16.gif"/>
-                  <text value="New"/>
-                  <toolTipText value="create new file"/>
-                </properties>
-              </component>
               <component id="772d" class="javax.swing.JButton" binding="openFileButton">
                 <constraints/>
                 <properties>
                   <icon value="toolbarButtonGraphics/general/Open16.gif"/>
                   <text value="Open"/>
                   <toolTipText value="open file"/>
-                </properties>
-              </component>
-              <component id="90ce1" class="javax.swing.JButton" binding="findButton">
-                <constraints/>
-                <properties>
-                  <icon value="toolbarButtonGraphics/general/Find16.gif"/>
-                  <text value="Find"/>
-                  <toolTipText value="find words"/>
                 </properties>
               </component>
               <component id="31671" class="javax.swing.JButton" binding="saveFileButton">

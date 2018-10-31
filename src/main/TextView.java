@@ -18,9 +18,7 @@ public class TextView extends JFrame {
     private JPanel MainView;
     private JToolBar toolBar;
     private JTextArea textEditor;
-    private JButton newFileButton;
     private JButton openFileButton;
-    private JButton findButton;
     private JButton saveFileButton;
 
     TextView(String path) {
@@ -30,25 +28,11 @@ public class TextView extends JFrame {
 
         open();
 
-        newFileButton.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mouseClicked(MouseEvent e) {
-                super.mouseClicked(e);
-            }
-        });
-
         openFileButton.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 open();
-            }
-        });
-
-        findButton.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mouseClicked(MouseEvent e) {
-                super.mouseClicked(e);
             }
         });
 

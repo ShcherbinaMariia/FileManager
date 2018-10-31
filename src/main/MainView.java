@@ -1,9 +1,5 @@
 package main;
 
-import main.MainController;
-import main.UtilsOS;
-import main.ViewUtils;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;

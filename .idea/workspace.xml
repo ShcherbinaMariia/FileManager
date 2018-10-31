@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33bd385d-b226-4599-aba4-48e7989a7af9" name="Default" comment="" />
+    <list default="true" id="33bd385d-b226-4599-aba4-48e7989a7af9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_13_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_5_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/MainControllerCreateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/MainControllerDeleteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FileManager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/FileProccesing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/FindFileGroups.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/TextView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/TextView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/TextView$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/TextView$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManager/TextView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/TextView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/TextView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/TextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/TextView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/UtilsOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UtilsOS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/MainControllerTest.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,21 +68,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/MainController.java">
+      <file leaf-file-name="MainView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/MainView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
+            <state relative-caret-position="-759">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#961#962#0" expanded="true" />
-                <element signature="e#1001#1002#0" expanded="true" />
-                <element signature="e#1193#1194#0" expanded="true" />
-                <element signature="e#1268#1269#0" expanded="true" />
+                <element signature="e#12981#13512#0" expanded="true" />
+                <element signature="e#13511#13512#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,8 +85,8 @@
       <file leaf-file-name="UtilsOS.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/UtilsOS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="145">
+              <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainControllerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/MainControllerTest.java">
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="228">
+              <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,26 +106,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/TextView.java">
+      <file leaf-file-name="MainControllerDeleteTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/MainControllerDeleteTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="250">
+              <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditorController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/EditorController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-              <folding>
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,7 +121,7 @@
       <file leaf-file-name="ViewUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/ViewUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="37">
               <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
@@ -102,7 +130,7 @@
       <file leaf-file-name="FileProccesing.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/FileProccesing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="60">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -114,7 +142,7 @@
       <file leaf-file-name="FindFileGroups.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/FindFileGroups.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="90">
               <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -129,8 +157,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -139,6 +167,9 @@
       <find>refre</find>
       <find>move</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -167,9 +198,15 @@
         <option value="$PROJECT_DIR$/src/MainView.form" />
         <option value="$PROJECT_DIR$/src/test/Test.java" />
         <option value="$PROJECT_DIR$/src/MainControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/MainControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/Model.java" />
+        <option value="$PROJECT_DIR$/src/main/MainView.java" />
+        <option value="$PROJECT_DIR$/src/main/TextView.java" />
+        <option value="$PROJECT_DIR$/src/main/TextView.form" />
         <option value="$PROJECT_DIR$/src/main/MainController.java" />
+        <option value="$PROJECT_DIR$/src/test/MainControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/MainControllerCreateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/UtilsOS.java" />
+        <option value="$PROJECT_DIR$/src/test/MainControllerDeleteTest.java" />
       </list>
     </option>
   </component>
@@ -183,28 +220,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="FileManager2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FileManager2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="FileManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileManager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FileManager2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FileManager2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="FileManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileManager" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FileManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileManager" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FileManager2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FileManager2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="FileManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileManager" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FileManager2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FileManager2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="FileManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="MainView" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="FileManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileManager" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -212,8 +263,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,7 +275,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40114942" />
     <property name="settings.editor.selected.configurable" value="project.propGUI" />
@@ -254,12 +303,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainControllerTest">
-    <configuration name="HTML_LinkedFilesFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HTML_LinkedFilesFinder" />
-      <module name="FileManager" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.MainControllerDeleteTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="FileManager" />
@@ -267,6 +311,52 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="MainControllerCreateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FileManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MainControllerCreateTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MainControllerDeleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FileManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MainControllerDeleteTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="MainControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FileManager" />
@@ -276,6 +366,29 @@
       <option name="MAIN_CLASS_NAME" value="test.MainControllerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MainControllerTest.deleteFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FileManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MainControllerTest" />
+      <option name="METHOD_NAME" value="deleteFile" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -325,14 +438,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.HTML_LinkedFilesFinder" />
       <item itemvalue="JUnit.MainControllerTest" />
+      <item itemvalue="JUnit.MainControllerTest.deleteFile" />
+      <item itemvalue="JUnit.MainControllerCreateTest" />
+      <item itemvalue="JUnit.MainControllerDeleteTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainControllerDeleteTest" />
+        <item itemvalue="JUnit.MainControllerCreateTest" />
         <item itemvalue="JUnit.MainControllerTest" />
+        <item itemvalue="JUnit.MainControllerTest.deleteFile" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.HTML_LinkedFilesFinder" />
       </list>
     </recent_temporary>
   </component>
@@ -367,35 +484,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainControllerTest - 2018.10.24 at 17h 28m 32s.xml">
-      <configuration name="MainControllerTest" configurationId="JUnit" />
+    <history-entry file="MainControllerDeleteTest - 2018.10.31 at 22h 18m 42s.xml">
+      <configuration name="MainControllerDeleteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainControllerTest - 2018.10.24 at 17h 28m 42s.xml">
-      <configuration name="MainControllerTest" configurationId="JUnit" />
+    <history-entry file="MainControllerDeleteTest - 2018.10.31 at 22h 19m 23s.xml">
+      <configuration name="MainControllerDeleteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainControllerTest - 2018.10.24 at 17h 29m 46s.xml">
-      <configuration name="MainControllerTest" configurationId="JUnit" />
+    <history-entry file="MainControllerDeleteTest - 2018.10.31 at 22h 20m 00s.xml">
+      <configuration name="MainControllerDeleteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainControllerTest - 2018.10.24 at 17h 30m 40s.xml">
-      <configuration name="MainControllerTest" configurationId="JUnit" />
+    <history-entry file="MainControllerDeleteTest - 2018.10.31 at 22h 20m 38s.xml">
+      <configuration name="MainControllerDeleteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainControllerTest - 2018.10.24 at 17h 31m 16s.xml">
-      <configuration name="MainControllerTest" configurationId="JUnit" />
+    <history-entry file="MainControllerDeleteTest - 2018.10.31 at 22h 21m 25s.xml">
+      <configuration name="MainControllerDeleteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainControllerTest - 2018.10.24 at 17h 31m 36s.xml">
-      <configuration name="MainControllerTest" configurationId="JUnit" />
+    <history-entry file="MainControllerDeleteTest - 2018.10.31 at 22h 21m 45s.xml">
+      <configuration name="MainControllerDeleteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainControllerTest - 2018.10.24 at 17h 32m 35s.xml">
-      <configuration name="MainControllerTest" configurationId="JUnit" />
+    <history-entry file="MainControllerDeleteTest - 2018.10.31 at 22h 22m 29s.xml">
+      <configuration name="MainControllerDeleteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainControllerTest - 2018.10.24 at 17h 37m 37s.xml">
-      <configuration name="MainControllerTest" configurationId="JUnit" />
+    <history-entry file="MainControllerDeleteTest - 2018.10.31 at 22h 23m 00s.xml">
+      <configuration name="MainControllerDeleteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainControllerTest - 2018.10.24 at 17h 37m 59s.xml">
-      <configuration name="MainControllerTest" configurationId="JUnit" />
+    <history-entry file="MainControllerDeleteTest - 2018.10.31 at 22h 23m 39s.xml">
+      <configuration name="MainControllerDeleteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainControllerTest - 2018.10.24 at 17h 39m 31s.xml">
-      <configuration name="MainControllerTest" configurationId="JUnit" />
+    <history-entry file="MainControllerDeleteTest - 2018.10.31 at 22h 24m 04s.xml">
+      <configuration name="MainControllerDeleteTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -410,12 +527,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38718292" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38718292" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49800798" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49800798" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" sideWeight="0.50199205" side_tool="true" weight="0.25" />
@@ -453,8 +570,12 @@
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -508,8 +629,12 @@
           <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -521,8 +646,12 @@
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -652,36 +781,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp.java" />
     <entry file="file://$PROJECT_DIR$/src/HTMLViewer.java" />
     <entry file="file://$PROJECT_DIR$/src/HTML_LinkedFilesFinder.java" />
     <entry file="file://$PROJECT_DIR$/src/Converter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/MainView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="343" column="38" lean-forward="true" selection-start-line="343" selection-start-column="38" selection-end-line="343" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#13473#13700#0" expanded="true" />
-            <element signature="e#13699#13700#0" expanded="true" />
-            <element signature="e#13750#13977#0" expanded="true" />
-            <element signature="e#13976#13977#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/MainView.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/stream/ForEachOps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -700,36 +803,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="417" selection-start-line="417" selection-end-line="417" />
-          <folding>
-            <element signature="e#15205#15206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/TextView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/EditorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/FileProccesing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="60">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -739,42 +818,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/FindFileGroups.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="90">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/UtilsOS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ViewUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/MainControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -797,20 +842,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/MainController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/TextView.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/EditorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/TextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/MainControllerCreateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/MainView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#12981#13512#0" expanded="true" />
+            <element signature="e#13511#13512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ViewUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UtilsOS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/MainControllerDeleteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -824,7 +941,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.40114942" />
               </list>
             </option>
           </splitter-proportions>
@@ -893,7 +1010,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>pd4ml</last-edited>
+          <last-edited>SketchIt</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
