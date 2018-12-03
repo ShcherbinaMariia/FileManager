@@ -1,5 +1,7 @@
 package main;
 
+import main.tableProcessor.TableProcessorView;
+
 import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
@@ -11,15 +13,12 @@ public class MainController {
     Model rightModel;
 
     private TextView textView;
+    private TableProcessorView tableView;
 
     public MainController() {
 
         leftModel = new Model("/");
         rightModel = new Model("/");
-    }
-
-    public void openEditor(Model model){
-        textView = new TextView(model.getPath());
     }
 
     public void refresh(Model model){
@@ -97,7 +96,7 @@ public class MainController {
 
     public int makeFrequencyDictionary(Model model, int index){
         String fileName = model.model.elementAt(index);
-        Map<String, Integer> dict = FileProccesing.findWordsOccurences(model.getPath() + fileName);
+        Map<String, Integer> dict = FileProccesing.findWordsOccurrences(model.getPath() + fileName);
         StringBuilder result = new StringBuilder();
         for(Map.Entry<String, Integer> entry : dict.entrySet()) {
             result.append(entry.getKey()).append(": ").append(entry.getValue()).append(";\n");
@@ -112,5 +111,9 @@ public class MainController {
             result.add(model.model.indexOf(file));
         }
         return result;
+    }
+
+    public void openTableProcessor(Model model, String fileName){
+        tableView = new TableProcessorView(model.getPath(), fileName);
     }
 }

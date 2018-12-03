@@ -2,22 +2,22 @@ package main;
 
 import javax.swing.*;
 
-class ViewUtils {
+public class ViewUtils {
 
-    static boolean confirm(){
+    public static boolean confirm(){
 
         int dialogButton = JOptionPane.YES_NO_OPTION;
         int dialogResult = JOptionPane.showConfirmDialog (null, "Are you sure?","Warning", dialogButton);
         return dialogResult == JOptionPane.YES_OPTION;
     }
 
-    static String getNameWindow(String msg){
+    public static String getNameWindow(String msg){
         JFrame frame = new JFrame();
         Object result = JOptionPane.showInputDialog(frame, msg);
         return result.toString();
     }
 
-    static void processExitCode(int exitCode){
+    public static void processExitCode(int exitCode){
 
         /*EXIT_CODE
          * 0 - OK
@@ -42,6 +42,10 @@ class ViewUtils {
         }
         if (exitCode == 2){
             msg = "Trying to delete a directory";
+        }
+
+        if (exitCode == 4){
+            msg = "Invalid expression - leads to recursion error";
         }
         JOptionPane.showMessageDialog(null, msg, "InfoBox: " + title, JOptionPane.INFORMATION_MESSAGE);
     }

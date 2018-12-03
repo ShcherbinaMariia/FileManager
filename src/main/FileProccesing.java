@@ -15,7 +15,7 @@ public class FileProccesing {
     static List<String> findLinkedFiles(String currentPath, String fileName) throws IOException {
 
         List<String> result = new LinkedList<>();
-        String text = UtilsOS.getFileText(currentPath + fileName);
+        String text = UtilsOS.readFile(currentPath + fileName);
 
         Pattern pattern = Pattern.compile(LINK_REGEX);
         Matcher matcher = pattern.matcher(text);
@@ -26,17 +26,17 @@ public class FileProccesing {
         return result;
     }
 
-    static Map<String, Integer> findWordsOccurences(String path){
+    static Map<String, Integer> findWordsOccurrences(String path){
 
         Map<String, Integer> dict = new HashMap<>();
         String text = null;
         try {
-            text = UtilsOS.getFileText(path);
+            text = UtilsOS.readFile(path);
         } catch (IOException e) {
             e.printStackTrace();
             return dict;
         }
-        String[] wordList = text.split("\\s");
+        String[] wordList = text.toLowerCase().split("[^a-zA-Z0-9-]+");
         for (int i = 0; i < wordList.length; i++) {
             String word = wordList[i];
             dict.merge(word, 1, (a, b) -> a + b);

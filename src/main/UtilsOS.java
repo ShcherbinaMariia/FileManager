@@ -112,7 +112,7 @@ public class UtilsOS {
         return result;
     }
 
-    public static String getFileText(String path) throws IOException {
+    public static String readFile(String path) throws IOException {
 
         BufferedReader reader;
         File readFile = new File(path);

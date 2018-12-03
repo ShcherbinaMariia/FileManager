@@ -49,8 +49,10 @@ public class MainView extends JFrame {
     private JButton rightMakeFrequencyDictionaryButton;
     private JButton leftSelectLinkedFilesButton;
     private JButton rightSelectLinkedFilesButton;
-    private JButton rightOpenEditorButton;
-    private JButton leftOpenEditorButton;
+    private JLabel leftCurrentPathLabel;
+    private JLabel rightCurrentPathLabel;
+    private JButton leftTableProcessorButton;
+    private JButton rightTableProcessorButton;
 
     MainView() {
 
@@ -64,6 +66,9 @@ public class MainView extends JFrame {
 
         leftList.setModel(mainController.leftModel.model);
         rightList.setModel(mainController.rightModel.model);
+
+        leftCurrentPathLabel.setText(mainController.leftModel.getPath());
+        rightCurrentPathLabel.setText(mainController.rightModel.getPath());
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setTitle("File Manager");
@@ -138,6 +143,7 @@ public class MainView extends JFrame {
 
                     int index = list.locationToIndex(evt.getPoint());
                     mainController.goTo(mainController.leftModel, index);
+                    leftCurrentPathLabel.setText(mainController.leftModel.getPath());
                 }
             }
         });
@@ -151,6 +157,7 @@ public class MainView extends JFrame {
 
                     int index = list.locationToIndex(evt.getPoint());
                     mainController.goTo(mainController.rightModel, index);
+                    rightCurrentPathLabel.setText(mainController.rightModel.getPath());
                 }
             }
         });
@@ -160,6 +167,7 @@ public class MainView extends JFrame {
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 mainController.setDrive(mainController.leftModel, String.valueOf(leftDriveChooser.getSelectedItem()));
+                leftCurrentPathLabel.setText(mainController.leftModel.getPath());
             }
         });
 
@@ -168,6 +176,7 @@ public class MainView extends JFrame {
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 mainController.setDrive(mainController.rightModel, String.valueOf(rightDriveChooser.getSelectedItem()));
+                rightCurrentPathLabel.setText(mainController.rightModel.getPath());
             }
         });
 
@@ -193,6 +202,7 @@ public class MainView extends JFrame {
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 mainController.back(mainController.leftModel);
+                leftCurrentPathLabel.setText(mainController.leftModel.getPath());
             }
         });
 
@@ -201,6 +211,7 @@ public class MainView extends JFrame {
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 mainController.back(mainController.rightModel);
+                rightCurrentPathLabel.setText(mainController.rightModel.getPath());
             }
         });
 
@@ -236,7 +247,7 @@ public class MainView extends JFrame {
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 String newName = ViewUtils.getNameWindow("Enter new name");
-                int exitCode = mainController.rename(mainController.rightModel,rightList.getSelectedValue(), newName);
+                int exitCode = mainController.rename(mainController.rightModel, rightList.getSelectedValue(), newName);
                 ViewUtils.processExitCode(exitCode);
             }
         });
@@ -254,7 +265,7 @@ public class MainView extends JFrame {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
-                int exitCode = mainController.delete(mainController.leftModel, leftList.getSelectedValue(), ViewUtils.confirm());
+                int exitCode = mainController.delete(mainController.rightModel, rightList.getSelectedValue(), ViewUtils.confirm());
                 ViewUtils.processExitCode(exitCode);
             }
         });
@@ -339,20 +350,21 @@ public class MainView extends JFrame {
                 ViewUtils.processExitCode(exitCode);
             }
         });
-
-        leftOpenEditorButton.addMouseListener(new MouseAdapter() {
+        leftTableProcessorButton.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
-                mainController.openEditor(mainController.leftModel);
+                String fileName = leftList.getSelectedValue();
+                mainController.openTableProcessor(mainController.leftModel, fileName);
             }
         });
 
-        rightOpenEditorButton.addMouseListener(new MouseAdapter() {
+        rightTableProcessorButton.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
-                mainController.openEditor(mainController.rightModel);
+                String fileName = rightList.getSelectedValue();
+                mainController.openTableProcessor(mainController.rightModel, fileName);
             }
         });
     }

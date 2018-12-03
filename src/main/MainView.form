@@ -18,7 +18,7 @@
         <properties/>
         <border type="none"/>
         <children>
-          <grid id="900a9" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="900a9" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
@@ -26,14 +26,6 @@
             <properties/>
             <border type="none"/>
             <children>
-              <component id="ad56" class="javax.swing.JComboBox" binding="leftDriveChooser">
-                <constraints>
-                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <toolTipText value="choose Disk and press 'go!' button"/>
-                </properties>
-              </component>
               <component id="3c584" class="javax.swing.JLabel">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
@@ -44,17 +36,32 @@
               </component>
               <component id="d25eb" class="javax.swing.JButton" binding="leftGoButton">
                 <constraints>
-                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <text value="go!"/>
                 </properties>
               </component>
-              <hspacer id="afcd2">
+              <hspacer id="36645">
                 <constraints>
-                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
                 </constraints>
               </hspacer>
+              <component id="e69fc" class="javax.swing.JComboBox" binding="leftDriveChooser">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="9fcef" class="javax.swing.JLabel" binding="leftCurrentPathLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                  <toolTipText value="current path"/>
+                </properties>
+              </component>
             </children>
           </grid>
           <toolbar id="21a9e">
@@ -159,6 +166,13 @@
                   <toolTipText value="Select linked files to selected HTML file"/>
                 </properties>
               </component>
+              <component id="b6273" class="javax.swing.JButton" binding="leftTableProcessorButton">
+                <constraints/>
+                <properties>
+                  <text value="TP"/>
+                  <toolTipText value="open table processor"/>
+                </properties>
+              </component>
             </children>
           </toolbar>
           <scrollpane id="c794b">
@@ -186,7 +200,7 @@
         <properties/>
         <border type="none"/>
         <children>
-          <grid id="9316b" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="9316b" layout-manager="GridLayoutManager" row-count="1" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
@@ -194,34 +208,44 @@
             <properties/>
             <border type="none"/>
             <children>
+              <component id="5cc2c" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Right"/>
+                </properties>
+              </component>
+              <component id="3f8db" class="javax.swing.JLabel" binding="rightCurrentPathLabel">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                  <toolTipText value="current path"/>
+                </properties>
+              </component>
+              <component id="a8601" class="javax.swing.JButton" binding="rightGoButton">
+                <constraints>
+                  <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="4"/>
+                  <text value="go!"/>
+                </properties>
+              </component>
               <component id="9c0cb" class="javax.swing.JComboBox" binding="rightDriveChooser">
                 <constraints>
-                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <editable value="false"/>
                   <toolTipText value="choose Disk and press 'go!' button"/>
                 </properties>
               </component>
-              <component id="5cc2c" class="javax.swing.JLabel">
+              <hspacer id="b6c52">
                 <constraints>
-                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <text value="Right"/>
-                </properties>
-              </component>
-              <component id="a8601" class="javax.swing.JButton" binding="rightGoButton">
-                <constraints>
-                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <text value="go!"/>
-                </properties>
-              </component>
-              <hspacer id="71f09">
-                <constraints>
-                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
                 </constraints>
               </hspacer>
             </children>
@@ -324,6 +348,13 @@
                 <properties>
                   <text value="Task2"/>
                   <toolTipText value="Select linked files to selected HTML file"/>
+                </properties>
+              </component>
+              <component id="80a7c" class="javax.swing.JButton" binding="rightTableProcessorButton">
+                <constraints/>
+                <properties>
+                  <text value="TP"/>
+                  <toolTipText value="open table processor"/>
                 </properties>
               </component>
             </children>

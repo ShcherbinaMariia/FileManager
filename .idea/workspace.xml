@@ -2,52 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33bd385d-b226-4599-aba4-48e7989a7af9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_13_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_5_0_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/MainControllerCreateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/MainControllerDeleteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileManager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FileManager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/FileProccesing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/FindFileGroups.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$18.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$19.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$20.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$21.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$22.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$23.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$24.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$25.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/MainView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/Model.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/TextView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/TextView$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/TextView$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/TextView$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileManager/TextView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MainView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/TextView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/TextView.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/TextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/TextView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/UtilsOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UtilsOS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/MainControllerTest.java" beforeDir="false" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/ST4-4.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/antlr-runtime-3.5.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/antlr4-4.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/antlr4-runtime-4.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/fastjson-1.2.49.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/gson-2.8.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/icu4j-58.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.json-1.0.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.abego.treelayout.core-1.0.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_8_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/fastjson_1_2_49.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_antlr_antlr4_4_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Grammar.g4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/tableProcessor/Cell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/tableProcessor/CellCoordinates.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/tableProcessor/CheckRecursion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/tableProcessor/CoordinatesConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/tableProcessor/TableModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/tableProcessor/TableProcessorController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/tableProcessor/TableProcessorView.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/tableProcessor/TableProcessorView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/tableProcessor/parser/main/ExpressionParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/tableProcessor/parser/main/Grammar.tokens" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/tableProcessor/parser/main/GrammarBaseVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/tableProcessor/parser/main/GrammarLexer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/tableProcessor/parser/main/GrammarLexer.tokens" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/tableProcessor/parser/main/GrammarParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/tableProcessor/parser/main/GrammarVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/tableProcessor/parser/main/Visitor.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SketchIt.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/pd4ml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FileManager/EditorController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FileManager/MainController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FileManager/MainControllerTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$26.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$27.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$28.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$29.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FileManager/MainView$30.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FileManager/UtilsOS.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FileManager/ViewUtils.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/com/intellij/uiDesigner/core/LayoutState.class" afterPath="$PROJECT_DIR$/out/production/FileManager/com/intellij/uiDesigner/core/LayoutState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/EditorController.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/EditorController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/FileProccesing.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/FileProccesing.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainController.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$1.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$10.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$11.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$12.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$13.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$14.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$15.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$16.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$17.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$18.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$19.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$2.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$20.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$21.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$21.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$22.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$22.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$23.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$23.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$24.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$24.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$25.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$25.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$26.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$26.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$27.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$27.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$28.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$28.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$29.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$29.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$3.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$30.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$30.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$4.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$5.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$6.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$7.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$8.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView$9.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/MainView.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/MainView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/UtilsOS.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/UtilsOS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FileManager/main/ViewUtils.class" afterPath="$PROJECT_DIR$/out/production/FileManager/main/ViewUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_13_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_13_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/junit_junit_5_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_5_0_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileManager.iml" afterPath="$PROJECT_DIR$/FileManager.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/EditorController.java" afterPath="$PROJECT_DIR$/src/main/EditorController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/FileProccesing.java" afterPath="$PROJECT_DIR$/src/main/FileProccesing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/MainController.java" afterPath="$PROJECT_DIR$/src/main/MainController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/MainView.form" afterPath="$PROJECT_DIR$/src/main/MainView.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/MainView.java" afterPath="$PROJECT_DIR$/src/main/MainView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/UtilsOS.java" afterPath="$PROJECT_DIR$/src/main/UtilsOS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/ViewUtils.java" afterPath="$PROJECT_DIR$/src/main/ViewUtils.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,36 +101,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/FileManager2$Main.coverage" NAME="Main Coverage Results" MODIFIED="1543845873018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>main.tableProcessor.parser.main.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <file leaf-file-name="TableModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/TableModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/MainView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-759">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#12981#13512#0" expanded="true" />
-                <element signature="e#13511#13512#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UtilsOS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/UtilsOS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+            <state relative-caret-position="1710">
+              <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,44 +121,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/MainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainControllerDeleteTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/MainControllerDeleteTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/ViewUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileProccesing.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/FileProccesing.java">
+      <file leaf-file-name="Visitor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/parser/main/Visitor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExpressionParser.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/parser/main/ExpressionParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,14 +143,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindFileGroups.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/FindFileGroups.java">
+      <file leaf-file-name="CellCoordinates.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/CellCoordinates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="285">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckRecursion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/CheckRecursion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableProcessorController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/TableProcessorController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="49" column="35" lean-forward="false" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableProcessorView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/TableProcessorView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,29 +204,29 @@
     <findStrings>
       <find>refre</find>
       <find>move</find>
+      <find>getVa</find>
+      <find>addColumn</find>
+      <find>Column</find>
+      <find>setValueAt</find>
+      <find>getDataVector</find>
+      <find>getColumn</find>
+      <find>setData</find>
+      <find>getToken</find>
+      <find>setState(21</find>
+      <find>CommonToken</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/View.java" />
-        <option value="$PROJECT_DIR$/src/pom.xml.fxml" />
-        <option value="$PROJECT_DIR$/src/Converter.java" />
-        <option value="$PROJECT_DIR$/src/HTMLViewer.java" />
-        <option value="$PROJECT_DIR$/src/Controller.java" />
-        <option value="$PROJECT_DIR$/tmp.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/HTMLlinkedFilesFinder.java" />
-        <option value="$PROJECT_DIR$/src/HTML_LinkedFilesFinder.java" />
-        <option value="$PROJECT_DIR$/src/Utils.java" />
-        <option value="$PROJECT_DIR$/src/TextView.form" />
-        <option value="$PROJECT_DIR$/src/Model.java" />
-        <option value="$PROJECT_DIR$/src/OSUtils.java" />
-        <option value="$PROJECT_DIR$/src/UtilsOS.java" />
-        <option value="$PROJECT_DIR$/src/EditorController.java" />
         <option value="$PROJECT_DIR$/src/ViewUtils.java" />
         <option value="$PROJECT_DIR$/src/TextView.java" />
         <option value="$PROJECT_DIR$/src/FindFileGroups.java" />
@@ -199,74 +237,178 @@
         <option value="$PROJECT_DIR$/src/test/Test.java" />
         <option value="$PROJECT_DIR$/src/MainControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/Model.java" />
-        <option value="$PROJECT_DIR$/src/main/MainView.java" />
-        <option value="$PROJECT_DIR$/src/main/TextView.java" />
         <option value="$PROJECT_DIR$/src/main/TextView.form" />
-        <option value="$PROJECT_DIR$/src/main/MainController.java" />
         <option value="$PROJECT_DIR$/src/test/MainControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/MainControllerCreateTest.java" />
+        <option value="$PROJECT_DIR$/src/TableProcessorView.java" />
+        <option value="$PROJECT_DIR$/src/TableProcessorView.form" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/Parser.java" />
+        <option value="$PROJECT_DIR$/src/main/FileProccesing.java" />
+        <option value="$PROJECT_DIR$/src/main/TextView.java" />
+        <option value="$PROJECT_DIR$/src/main/CellCoordinats.java" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/TableProccesorController.java" />
+        <option value="$PROJECT_DIR$/src/main/CoordinatesConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/TableProcessorView.form" />
+        <option value="$PROJECT_DIR$/src/main/CellCoordinates.java" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/TP_Grammar.g4" />
         <option value="$PROJECT_DIR$/src/main/UtilsOS.java" />
+        <option value="$PROJECT_DIR$/src/main/MainView.java" />
+        <option value="$PROJECT_DIR$/src/main/MainController.java" />
         <option value="$PROJECT_DIR$/src/test/MainControllerDeleteTest.java" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/gen/GrammarListener.java" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/gen/GrammarBaseListener.java" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/gen/GrammarParser.java" />
+        <option value="$PROJECT_DIR$/src/parser/main/GrammarParser.java" />
+        <option value="$PROJECT_DIR$/lib/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/tree/AbstractParseTreeVisitor.class" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/parser/main/GrammarBaseVisitor.java" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/parser/main/GrammarLexer.java" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/parser/main/GrammarParser.java" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/parser/main/GrammarVisitor.java" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/parser/main/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/main/Grammar.g4" />
+        <option value="$PROJECT_DIR$/src/main/MainView.form" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/CoordinatesConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/XMLEditor/XMLEditorView.form" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/parser/main/Visitor.java" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/TableProcessorView.java" />
+        <option value="$PROJECT_DIR$/src/main/ViewUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/Cell.java" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/CellCoordinates.java" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/parser/main/ExpressionParser.java" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/CheckRecursion.java" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/TableProcessorController.java" />
+        <option value="$PROJECT_DIR$/src/main/tableProcessor/TableModel.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="823" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="FileManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FileManager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FileManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FileManager" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FileManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FileManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FileManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FileManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FileManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FileManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="MainView" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="FileManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FileManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileManager2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileManager2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileManager2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileManager2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileManager2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileManager2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileManager2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileManager2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tableProcessor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileManager2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileManager2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tableProcessor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
@@ -278,7 +420,15 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40114942" />
-    <property name="settings.editor.selected.configurable" value="project.propGUI" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="$PROJECT_DIR$/src/main/Grammar.g4::/auto-gen" value="false" />
+    <property name="$PROJECT_DIR$/src/main/Grammar.g4::/output-dir" value="$PROJECT_DIR$/src/main/tableProcessor/parser" />
+    <property name="$PROJECT_DIR$/src/main/Grammar.g4::/language" value="Java" />
+    <property name="$PROJECT_DIR$/src/main/Grammar.g4::/gen-listener" value="false" />
+    <property name="$PROJECT_DIR$/src/main/Grammar.g4::/gen-visitor" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -288,6 +438,8 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main/tableProcessor" />
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
@@ -303,23 +455,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainControllerDeleteTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Main" />
-      <module name="FileManager" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="MainControllerCreateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FileManager" />
-      <extension name="coverage">
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="MainControllerCreateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <module name="FileManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
@@ -329,20 +473,23 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
+      <method />
     </configuration>
-    <configuration name="MainControllerDeleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FileManager" />
-      <extension name="coverage">
+    <configuration default="false" name="MainControllerDeleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <module name="FileManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
@@ -352,13 +499,17 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
+      <method />
     </configuration>
-    <configuration name="MainControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MainControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="FileManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -369,20 +520,23 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
+      <method />
     </configuration>
-    <configuration name="MainControllerTest.deleteFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FileManager" />
-      <extension name="coverage">
+    <configuration default="false" name="MainControllerTest.deleteFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <module name="FileManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
@@ -392,13 +546,263 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.tableProcessor.parser.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FileManager" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -408,13 +812,86 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FileManager" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -427,29 +904,55 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
+      <envs />
       <properties />
       <listeners />
+      <method />
     </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.MainControllerTest" />
-      <item itemvalue="JUnit.MainControllerTest.deleteFile" />
-      <item itemvalue="JUnit.MainControllerCreateTest" />
-      <item itemvalue="JUnit.MainControllerDeleteTest" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MainControllerCreateTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MainControllerDeleteTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MainControllerTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MainControllerTest.deleteFile" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.MainControllerDeleteTest" />
-        <item itemvalue="JUnit.MainControllerCreateTest" />
-        <item itemvalue="JUnit.MainControllerTest" />
-        <item itemvalue="JUnit.MainControllerTest.deleteFile" />
-        <item itemvalue="Application.Main" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MainControllerTest.deleteFile" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MainControllerTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MainControllerDeleteTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MainControllerCreateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -470,6 +973,12 @@
       </map>
     </option>
   </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER,ALPHA_COMPARATOR,SHOW_INTERFACES,SHOW_PROPERTIES" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -480,452 +989,434 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538598643828</updated>
+      <workItem from="1542225109833" duration="904000" />
+      <workItem from="1542226062285" duration="16486000" />
+      <workItem from="1542296145662" duration="12100000" />
+      <workItem from="1542548379774" duration="5109000" />
+      <workItem from="1542654957792" duration="17400000" />
+      <workItem from="1542831934811" duration="8028000" />
+      <workItem from="1543431131001" duration="815000" />
+      <workItem from="1543431951634" duration="4446000" />
+      <workItem from="1543595463101" duration="5209000" />
+      <workItem from="1543695694180" duration="7774000" />
+      <workItem from="1543870516598" duration="27000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainControllerDeleteTest - 2018.10.31 at 22h 18m 42s.xml">
+    <history-entry file="MainControllerCreateTest - 2018.11.01 at 10h 45m 47s.xml">
+      <configuration name="MainControllerCreateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainControllerCreateTest - 2018.11.01 at 11h 37m 07s.xml">
+      <configuration name="MainControllerCreateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainControllerCreateTest - 2018.11.08 at 11h 50m 06s.xml">
+      <configuration name="MainControllerCreateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainControllerCreateTest - 2018.11.08 at 11h 50m 14s.xml">
+      <configuration name="MainControllerCreateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainControllerCreateTest - 2018.11.08 at 12h 34m 01s.xml">
+      <configuration name="MainControllerCreateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainControllerCreateTest - 2018.11.08 at 12h 34m 39s.xml">
+      <configuration name="MainControllerCreateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainControllerDeleteTest - 2018.11.08 at 11h 50m 23s.xml">
       <configuration name="MainControllerDeleteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainControllerDeleteTest - 2018.10.31 at 22h 19m 23s.xml">
+    <history-entry file="MainControllerDeleteTest - 2018.11.08 at 11h 51m 50s.xml">
       <configuration name="MainControllerDeleteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainControllerDeleteTest - 2018.10.31 at 22h 20m 00s.xml">
+    <history-entry file="MainControllerDeleteTest - 2018.11.08 at 12h 33m 28s.xml">
       <configuration name="MainControllerDeleteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainControllerDeleteTest - 2018.10.31 at 22h 20m 38s.xml">
-      <configuration name="MainControllerDeleteTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainControllerDeleteTest - 2018.10.31 at 22h 21m 25s.xml">
-      <configuration name="MainControllerDeleteTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainControllerDeleteTest - 2018.10.31 at 22h 21m 45s.xml">
-      <configuration name="MainControllerDeleteTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainControllerDeleteTest - 2018.10.31 at 22h 22m 29s.xml">
-      <configuration name="MainControllerDeleteTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainControllerDeleteTest - 2018.10.31 at 22h 23m 00s.xml">
-      <configuration name="MainControllerDeleteTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainControllerDeleteTest - 2018.10.31 at 22h 23m 39s.xml">
-      <configuration name="MainControllerDeleteTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainControllerDeleteTest - 2018.10.31 at 22h 24m 04s.xml">
+    <history-entry file="MainControllerDeleteTest - 2018.11.08 at 12h 33m 45s.xml">
       <configuration name="MainControllerDeleteTest" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="78298000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="825" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32977304" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38718292" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49800798" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" sideWeight="0.50199205" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3978638" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32977304" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3227513" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32671958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.027083334" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.tokens" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="43" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/tableProcessor/parser/main/ExpressionParser.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/tableProcessor/TableModel.java</url>
+          <line>114</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/tableProcessor/CheckRecursion.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="98" />
     </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Converter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/FindFileGroups.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/UtilsOS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/MainView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6195">
-          <caret line="413" column="9" lean-forward="true" selection-start-line="413" selection-start-column="9" selection-end-line="413" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#13473#13700#0" expanded="true" />
-            <element signature="e#13699#13700#0" expanded="true" />
-            <element signature="e#13750#13977#0" expanded="true" />
-            <element signature="e#13976#13977#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Converter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/UtilsOS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/FindFileGroups.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/UtilsOS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/MainView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#13473#13700#0" expanded="true" />
-            <element signature="e#13699#13700#0" expanded="true" />
-            <element signature="e#13750#13977#0" expanded="true" />
-            <element signature="e#13976#13977#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/UtilsOS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/MainView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#13473#13700#0" expanded="true" />
-            <element signature="e#13699#13700#0" expanded="true" />
-            <element signature="e#13750#13977#0" expanded="true" />
-            <element signature="e#13976#13977#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/View.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/MainView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#13473#13700#0" expanded="true" />
-            <element signature="e#13699#13700#0" expanded="true" />
-            <element signature="e#13750#13977#0" expanded="true" />
-            <element signature="e#13976#13977#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/MainView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#13473#13700#0" expanded="true" />
-            <element signature="e#13699#13700#0" expanded="true" />
-            <element signature="e#13750#13977#0" expanded="true" />
-            <element signature="e#13976#13977#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/MainView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/javax/swing/JList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-886">
-          <caret line="1647" column="24" selection-start-line="1647" selection-start-column="24" selection-end-line="1647" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="1966" selection-start-line="1966" selection-end-line="1966" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/awt/event/MouseAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp.java" />
-    <entry file="file://$PROJECT_DIR$/src/HTMLViewer.java" />
-    <entry file="file://$PROJECT_DIR$/src/HTML_LinkedFilesFinder.java" />
-    <entry file="file://$PROJECT_DIR$/src/Converter.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/stream/ForEachOps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="150" selection-start-line="150" selection-end-line="150" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/stream/ReferencePipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="417" selection-start-line="417" selection-end-line="417" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/FileProccesing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/FindFileGroups.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/TextView.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/EditorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/TextView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-51">
+          <caret line="114" column="27" lean-forward="false" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/MainControllerCreateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/MainView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-759">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#12981#13512#0" expanded="true" />
-            <element signature="e#13511#13512#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ViewUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/UtilsOS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="290">
+          <caret line="33" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/MainControllerDeleteTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        <state relative-caret-position="324">
+          <caret line="52" column="48" lean-forward="true" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/gen/GrammarParser.py" />
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/gen/GrammarListener.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/gen/GrammarBaseVisitor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/gen/GrammarVisitor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/gen/GrammarParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/gen/GrammarBaseListener.java" />
+    <entry file="file://$PROJECT_DIR$/src/parser/main/Grammar.tokens" />
+    <entry file="file://$PROJECT_DIR$/src/parser/main/GrammarParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/parser/main/GrammarBaseListener.java" />
+    <entry file="file://$PROJECT_DIR$/src/parser/main/GrammarLexer.java" />
+    <entry file="file://$PROJECT_DIR$/src/parser/main/GrammarLexer.tokens" />
+    <entry file="file://$PROJECT_DIR$/src/parser/main/GrammarListener.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/function/IntFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/parser/main/GrammarLexer.tokens">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/tree/AbstractParseTreeVisitor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/FindFileGroups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Grammar.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/MainView.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/javax/swing/table/DefaultTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/ANTLRInputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/EditorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="473" column="0" lean-forward="false" selection-start-line="473" selection-start-column="0" selection-end-line="473" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1859">
+          <caret line="147" column="19" lean-forward="false" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="965" column="0" lean-forward="false" selection-start-line="965" selection-start-column="0" selection-end-line="965" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/TableProcessorView.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20625">
+          <caret line="1436" column="0" lean-forward="false" selection-start-line="1436" selection-start-column="0" selection-end-line="1436" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/parser/main/GrammarLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/gson-2.8.5.jar!/com/google/gson/Gson.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-959">
+          <caret line="219" column="0" lean-forward="false" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/parser/main/Grammar.tokens">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/parser/main/GrammarBaseVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-554">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/CoordinatesConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/XMLEditor/XMLEditorView.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/XMLEditor/XMLEditorView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/parser/main/GrammarParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-472">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ViewUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/parser/main/GrammarVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-472">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/TableProcessorView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/parser/main/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/CellCoordinates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/TableProcessorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="49" column="35" lean-forward="false" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/CheckRecursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/TableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/tableProcessor/parser/main/ExpressionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -961,7 +1452,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-sdk-2.12.5</last-edited>
+          <last-edited>antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1010,7 +1501,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>SketchIt</last-edited>
+          <last-edited>fastjson-1.2.49</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

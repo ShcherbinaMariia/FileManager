@@ -5,7 +5,7 @@ import java.io.IOException;
 class EditorController {
 
     String open(String path) throws IOException {
-        return UtilsOS.getFileText(path);
+        return UtilsOS.readFile(path);
     }
 
     void save(String path, String content){
