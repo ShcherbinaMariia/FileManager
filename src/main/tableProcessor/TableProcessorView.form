@@ -54,6 +54,12 @@
               <text value="Save"/>
             </properties>
           </component>
+          <component id="60113" class="javax.swing.JButton" binding="helpButton">
+            <constraints/>
+            <properties>
+              <text value="Help"/>
+            </properties>
+          </component>
           <component id="5d028" class="javax.swing.JLabel">
             <constraints/>
             <properties>

@@ -1,6 +1,7 @@
 package main.tableProcessor.parser.main;
 
 import main.tableProcessor.CellCoordinates;
+import main.tableProcessor.CheckRecursion;
 import main.tableProcessor.TableModel;
 import org.antlr.v4.runtime.*;
 
@@ -25,7 +26,7 @@ public class ExpressionParser
 
                 Set<CellCoordinates> linkedCells = visitor.getLinkedCells();
 
-                if (model.checker.checkIfValid(cellCoordinates, linkedCells)) {
+                if (new CheckRecursion(model).checkIfValid(cellCoordinates, linkedCells)) {
                     model.setCellsDependOn(cellCoordinates, linkedCells);
                     linkedCells.forEach(linkedCellCoordinates -> model.setLinkedCell(cellCoordinates, linkedCellCoordinates));
                 }

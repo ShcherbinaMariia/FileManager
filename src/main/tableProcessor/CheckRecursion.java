@@ -9,7 +9,7 @@ public class CheckRecursion {
     private HashSet<CellCoordinates> allInvolvedCells;
     private TableModel model;
 
-    CheckRecursion(TableModel model){
+    public CheckRecursion(TableModel model){
         this.model = model;
     }
 

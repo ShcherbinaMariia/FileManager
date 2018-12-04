@@ -2,6 +2,7 @@ package main.tableProcessor;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import com.google.gson.Gson;
 import main.tableProcessor.parser.main.ExpressionParser;
 
 import javax.swing.table.DefaultTableModel;
@@ -11,7 +12,14 @@ import com.alibaba.fastjson.JSON;
 
 public class TableModel extends DefaultTableModel {
 
-    public CheckRecursion checker = new CheckRecursion(this);
+    public String getJSONTable()
+    {
+        Gson gson = new Gson();
+        String jsonTable = gson.toJson(this);
+
+        //String jsonTable = JSON.toJSONString(this);
+        return jsonTable;
+    }
 
     private Set<CellCoordinates> deserializeCells(JSONArray JsonCells) {
         Set<CellCoordinates> cells = new HashSet<>();
@@ -170,8 +178,9 @@ public class TableModel extends DefaultTableModel {
         }
     }
 
-    public void removeColumn(int index) {
+    public void removeColumn(String strIndex) {
         int numberOfRows = getRowCount();
+        int index = CoordinatesConverter.getIntColumn(strIndex);
         columnIdentifiers.remove(columnIdentifiers.size() - 1);
         for (int row = 0; row < numberOfRows; row++) {
             Vector rowVector = (Vector) dataVector.elementAt(row);

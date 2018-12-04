@@ -4,6 +4,7 @@ import main.ViewUtils;
 import javax.swing.*;
 import javax.swing.text.View;
 import java.awt.*;
+import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.IOException;
@@ -22,6 +23,7 @@ public class TableProcessorView extends JFrame {
     private JButton deleteColumnButton;
     private JPanel mainPanel;
     private JButton newFileButton;
+    private JButton helpButton;
 
     public TableProcessorView(String path, String fileName) {
 
@@ -72,7 +74,7 @@ public class TableProcessorView extends JFrame {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
-                controller.deleteColumn(getIndex("Enter index of column to delete"), ViewUtils.confirm());
+                controller.deleteColumn(getStringIndex("Enter index of column to delete"), ViewUtils.confirm());
             }
         });
         saveButton.addMouseListener(new MouseAdapter() {
@@ -116,10 +118,29 @@ public class TableProcessorView extends JFrame {
                 }
             }
         });
+        helpButton.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                showHelpMessage();
+            }
+        });
+    }
+    private void showHelpMessage(){
+        String msg = "Allowed commands are +, -, *, /, min(), max()\n";
+        msg += "To use cell value type cell coordinates in format A0\n(Upper case letter - column identifier, int number - row identifier)\n";
+        msg += "Lines are numerated from 0\n";
+        msg += "EXAMPLE: min(2, A0) + B1 * 2 - C1 / A1 + max(2, 4)";
+        JOptionPane.showMessageDialog(null, msg, "Help", JOptionPane.INFORMATION_MESSAGE);
     }
 
     private int getIndex(String message){
         String index=JOptionPane.showInputDialog(new JFrame(), message);
         return Integer.parseInt(index);
+    }
+
+    private String getStringIndex(String message){
+        String index=JOptionPane.showInputDialog(new JFrame(), message);
+        return index;
     }
 }

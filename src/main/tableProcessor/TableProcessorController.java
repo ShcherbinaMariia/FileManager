@@ -24,15 +24,13 @@ public class TableProcessorController {
         model.removeRow(index);
     }
 
-    void deleteColumn(int index, boolean confirmation){
+    void deleteColumn(String index, boolean confirmation){
         if (!confirmation) return;
         model.removeColumn(index);
     }
 
     void save(String name){
-        Gson gson = new Gson();
-        String jsonTable = gson.toJson(model);
-        UtilsOS.writeToFile(currentPath + "/" + name, jsonTable);
+        UtilsOS.writeToFile(currentPath + "/" + name, model.getJSONTable());
     }
     boolean set(int row, int column, String expression){
         model.setValueAt(expression, row, column);
