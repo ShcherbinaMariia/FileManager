@@ -116,4 +116,8 @@ public class MainController {
     public void openTableProcessor(Model model, String fileName){
         tableView = new TableProcessorView(model.getPath(), fileName);
     }
+
+    public Map<String, String> getFileInfo(Model model, String filename){
+        return UtilsOS.getFileInfo(model.getPath() + filename);
+    }
 }

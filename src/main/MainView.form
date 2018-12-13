@@ -131,6 +131,13 @@
                   <toolTipText value="Move"/>
                 </properties>
               </component>
+              <component id="c2daa" class="javax.swing.JButton" binding="leftInfoButton">
+                <constraints/>
+                <properties>
+                  <text value="Info"/>
+                  <toolTipText value="get info about selected file"/>
+                </properties>
+              </component>
               <component id="86300" class="javax.swing.JButton" binding="leftRenameButton">
                 <constraints/>
                 <properties>
@@ -313,6 +320,13 @@
                   <icon value="sun/jvm/hotspot/ui/resources/arrow.png"/>
                   <text value=""/>
                   <toolTipText value="Move"/>
+                </properties>
+              </component>
+              <component id="9dbac" class="javax.swing.JButton" binding="rightInfoButton">
+                <constraints/>
+                <properties>
+                  <text value="Info"/>
+                  <toolTipText value="get info about selected file"/>
                 </properties>
               </component>
               <component id="ff779" class="javax.swing.JButton" binding="rightRenameButton">

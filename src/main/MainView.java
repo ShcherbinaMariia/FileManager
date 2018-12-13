@@ -53,6 +53,8 @@ public class MainView extends JFrame {
     private JLabel rightCurrentPathLabel;
     private JButton leftTableProcessorButton;
     private JButton rightTableProcessorButton;
+    private JButton leftInfoButton;
+    private JButton rightInfoButton;
 
     MainView() {
 
@@ -365,6 +367,21 @@ public class MainView extends JFrame {
                 super.mouseClicked(e);
                 String fileName = rightList.getSelectedValue();
                 mainController.openTableProcessor(mainController.rightModel, fileName);
+            }
+        });
+        leftInfoButton.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                ViewUtils.showFileInfo(mainController.getFileInfo(mainController.leftModel, leftList.getSelectedValue()));
+            }
+        });
+
+        rightInfoButton.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                ViewUtils.showFileInfo(mainController.getFileInfo(mainController.rightModel, rightList.getSelectedValue()));
             }
         });
     }

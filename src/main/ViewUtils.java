@@ -1,6 +1,10 @@
 package main;
 
 import javax.swing.*;
+import java.text.Format;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Map;
 
 public class ViewUtils {
 
@@ -48,5 +52,39 @@ public class ViewUtils {
             msg = "Invalid expression - leads to recursion error";
         }
         JOptionPane.showMessageDialog(null, msg, "InfoBox: " + title, JOptionPane.INFORMATION_MESSAGE);
+    }
+
+    static void showFileInfo(Map<String, String> info){
+        JOptionPane.showMessageDialog(null,
+                "Name: " + info.get("name") + "\n" +
+                        "Type: " + info.get("type") + "\n" +
+                        "Absolute path: " + info.get("path") + "\n" +
+                        "Length: " + getLength(Double.parseDouble(info.get("length"))) + "\n" +
+                        "Last modified: " + getTime(Long.parseLong(info.get("last modified"))),
+
+                "File info",
+                JOptionPane.INFORMATION_MESSAGE);
+    }
+
+    private static String getLength(double length){
+        int base = 1024;
+        if (length < base)
+            return length + "b";
+
+        length /= base;
+        if (length < base)
+            return length + "Kb";
+
+        length /= base;
+        if (length < base)
+            return length + "Mb";
+
+        return length/base  + "Gb";
+    }
+
+    private static String getTime(long t){
+        Date date = new Date(t);
+        Format format = new SimpleDateFormat("yyyy MM dd HH:mm:ss");
+        return format.format(date);
     }
 }

@@ -2,6 +2,8 @@ package main;
 
 import java.io.*;
 import java.nio.file.Files;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Objects;
 import java.util.Vector;
 import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
@@ -139,5 +141,16 @@ public class UtilsOS {
             return -1;
         }
         return 0;
+    }
+
+    public static Map<String, String> getFileInfo(String filename){
+        HashMap<String , String> result = new HashMap<>();
+        File file = new File(filename);
+        result.put("name", file.getName());
+        result.put("type", (file.isDirectory()) ? "Directory" : "File");
+        result.put("path", file.getAbsolutePath());
+        result.put("length", "" + file.length());
+        result.put("last modified", "" + file.lastModified());
+        return result;
     }
 }
